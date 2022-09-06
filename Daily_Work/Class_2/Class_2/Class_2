@@ -1,0 +1,60 @@
+Static Non Static
+
+Class A 
+     -> Every time when we write outside the object it will divide in the static
+        and non static.
+     
+     -> anything which is not written by "static" keyword is a non static and it will goes
+        in the object and written with "static" keyword goes to the common memory 
+        of the class.  (like "int x = 10" and "static int y = 100")
+     
+     -> when we want call the non static once we need to first write the object name then dot
+        and the name of non static  (like a1.x)
+     
+     -> when we want to call the static once we just need to write the class name dot and the 
+        name of static once. (like A.y)
+        
+ Rules for the Non Static
+ 
+     -> If you to access non stating first you should create an object.
+     -> 
+      
+ Rules for the Static
+ 
+     -> Static belongs to class.
+     -> 
+     
+     
+Sir Notes 
+
+Non Static :- 
+     
+     1. These variables are created outside the outside method and inside the class.
+        without static keyword.
+     2. Non static member belongs to object.objecty is also called as  instance.
+     3. the below program show error because we are accessing without object
+        program 
+         
+        package Class_2;
+
+        public interface A1 {
+	       int x = 10; // non static ( object)
+
+	       public static void main(String[] args) {
+		          System.out.println(A.x); //Error
+	          }
+
+            } 
+     4. To access non static we first create object and then we access the non static.
+     
+     package Class_2;
+
+        public interface A1 {
+	       int x = 10; // non static ( object)
+
+	    public static void main(String[] args) {
+		          A a1 = new A ();
+		   System.out.println(a1.x);//Error
+	      }
+
+        }
