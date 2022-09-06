@@ -1,0 +1,45 @@
+every class has a specific name and we should be use it in every time when we call.
+as shown in program below.
+      public class A {
+      public.static.vaid main (String[]args){
+      
+At this stage you should be use the class name accurate class name,
+like A a1 in this line A is a class name and a1 is the object name.
+so now the program like,
+
+       A a1 = new A();
+       
+using new keyword for the creating new object.
+
+       System.out.println(a1);
+       
+      }
+      this curly bracket closes the main method.
+    }
+     This curly bracket closes the class of the program.
+     
+     
+now try same code with different class
+            public class Gk {
+            public.Static.void main (String[]args){
+            
+            Gk a1 = new Gk();
+            
+            here is the change in first program the class name is A and in this
+            program the class name is Gk.
+            
+            System.out.println(a1);
+            }
+           }
+            
+
+Notes on first class:
+
+1) Class :-
+      
+      class helps us to generate objects.
+      
+2) new keyword   A a1 = new A ();
+      -> It sends request to the class to create object.
+      -> once object is created new keyword will get object address & stores that 
+         will get object address & stores that in a reference variable. 
