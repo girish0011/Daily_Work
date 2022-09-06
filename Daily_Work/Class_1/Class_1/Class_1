@@ -41,6 +41,7 @@ is a button and a class is the machine for creating object.
 1) Class :-
       
       -> class helps us to generate objects.
+      -> Every class has a common memory.
 
 Ex:- Machine.
       
