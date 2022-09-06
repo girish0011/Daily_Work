@@ -35,11 +35,31 @@ now try same code with different class
 
 Notes on first class:
 
+for creating an object you should click the button so in this program new keyword
+is a button and a class is the machine for creating object.
+
 1) Class :-
       
-      class helps us to generate objects.
+      -> class helps us to generate objects.
+
+Ex:- Machine.
       
-2) new keyword   A a1 = new A ();
+2) new keyword :-  A a1 = new A ();
+
       -> It sends request to the class to create object.
       -> once object is created new keyword will get object address & stores that 
          will get object address & stores that in a reference variable. 
+
+Ex :- Button.
+        
+3) Garbage Collector :-
+
+      -> Garbage collector on regular basis keeps removing objects from the memory
+         which are not in use.
+      -> which helps us to manage memory in efficient manner.
+      
+Ex:- kid , maid.      
+
+every time kid is throwing the things in garbage box after filling 90 % garbage box
+maid clean the box as the same way garbage collector works. 
+
