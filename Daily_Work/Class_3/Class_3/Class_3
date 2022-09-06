@@ -1,0 +1,36 @@
+Modifying Variable.
+
+Example :- Xerox book (we will write anything on the copy)
+
+we can modify the value either non static or static
+
+****Static value will be change in java*** 
+
+In a class their is only one space for the variable the value of variable changes 
+and it remains same for next use of the variable like suppose
+first the value of x is 10 then we change it to the 1000 so now the value of x will only 1000
+and 10 will be erased.(once you alter the value of x, then main copy of x will be altered)
+
+
+
+Sir notes
+
+Static :-
+
+     -> Static variable is created outside the method but inside the class 
+        using static keyword.
+     -> Static variables belongs to class.
+     -> Do not create object to access to static variable,we access the variable
+        with class name.
+     -> Static variable value can be change as shown in example.
+     -> There is only one copy of static variable, which get stored in common memory.
+        if you change the value of x then main copy of x variable value gets altered.
+        you can change it any number of time
+        
+        
+        
+Stack and Heap  
+
+
+     
+     
